@@ -3,6 +3,12 @@ const server = express();
 
 server.use(express.json());
 
+const actionsRouter = require("./actions/actionsRouter");
+server.use("/api/actions", actionsRouter);
+
+const projectsRouter = require("./projects/projectsRouter");
+server.use("./api/projects", projectsRouter);
+
 server.get("/", (req, res) => {
   res.send("<h2>My sprint project!</h2>");
 });
