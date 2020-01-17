@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "db:seed": "knex seed:run",
+    "server": "nodemon index.js",
     "start": "node index.js"
   },
   "repository": {
