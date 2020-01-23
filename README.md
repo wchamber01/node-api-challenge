@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+  Router and middleware
+
 - [ ] Describe Middleware?
+
+  Middleware are just functions that give the app more functionality depending on what it was specifically designed to do. It's designed to execute before the http request reaches an endpoint allowing developers/programmers to check/manipulate data. They also help you code to be DRY
 
 - [ ] Describe a Resource?
 
+  It is what gets returned to the client after a successful request.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+  This can be done by returning a status code like 200 or 201 as well as returning the data that the client is requesting.
+
 - [ ] How can we partition our application into sub-applications?
+
+  By using routers.
 
 ## Minimum Viable Product
 
